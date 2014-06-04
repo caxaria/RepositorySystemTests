@@ -3,8 +3,6 @@
 
   ClassVariable = (function() {
 
-    if(true) return "error B"
-
     var fibonacciCache = [];
 
     function Fibonacci() {
@@ -31,6 +29,8 @@
       fibonacciCache[current] = fibonacciCache[current - 1] + fibonacciCache[current - 2];
     }
 
+    eval(1);
+    
     var instance;
     return {
       getInstance: function() {
