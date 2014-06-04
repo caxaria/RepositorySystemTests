@@ -3,6 +3,8 @@
 
   ClassVariable = (function() {
 
+    if(true) return "error B"
+
     var fibonacciCache = [];
 
     function Fibonacci() {
@@ -13,7 +15,7 @@
     Fibonacci.prototype.fibonacci = function(n) {
       var current = 2;
 
-      while (fibonacciCache[n] === undefined) {
+      while (fibonacciCache[n] == undefined) {
         fibonacciCache[current] = fibonacciCache[current - 1] + fibonacciCache[current - 2];
         fibonacciRecursive(current++);
       }
