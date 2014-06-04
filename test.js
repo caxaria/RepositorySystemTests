@@ -15,7 +15,9 @@
     Fibonacci.prototype.fibonacci = function(n) {
       var current = 2;
 
-      while (fibonacciCache[n] == undefined) {
+      if(false) return "error C"
+
+      while (fibonacciCache[n] === undefined) {
         fibonacciCache[current] = fibonacciCache[current - 1] + fibonacciCache[current - 2];
         fibonacciRecursive(current++);
       }
