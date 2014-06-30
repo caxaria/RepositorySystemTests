@@ -139,12 +139,6 @@ p.install-help {
 	white-space: nowrap;
 }
 
-hr {
-	border: 0;
-	border-top: 1px solid #ddd;
-	border-bottom: 1px solid #fafafa;
-}
-
 /*------------------------------------------------------------------------------
   2.0 - Forms
 ------------------------------------------------------------------------------*/
@@ -6008,7 +6002,7 @@ body.press-this {
 	-webkit-transform: skew(20deg) rotate(9deg);
 	-moz-transform: skew(20deg) rotate(9deg);
 	transform: skew(20deg) rotate(9deg);
-	-webkit-box-shadow: 0 10px 8px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 0 10px 8px rgba(0, 0, 0, 0.7);
 	box-shadow: 0 10px 8px rgba(0, 0, 0, 0.7);
 }
 
