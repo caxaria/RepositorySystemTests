@@ -1,6 +1,4 @@
 //testing whitespaces in results
-
-
 function stuff() {
 }
 
